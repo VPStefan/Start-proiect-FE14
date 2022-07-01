@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>index signup</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+  <div class="mainContainer">
+    <!-- poza stanga -->
+    <div class="pictureContainer">
+      <img src="/worldcoffee.jpg" alt="world coffee image">
+    </div>
+    <!-- formular -->
+    <div class="formContainer">
+      <div class="innerHead">
+        <h1>Welcome to the world of coffee</h1>
+        <h2>Sign up bellow</h2>
+      </div>
+      <div class="formSignup">
+        <form action="login.html" method="get">
+          <label for="userName">User Name</label><br>
+          <input type="text" id="userName" name="enter_fullname" required><br>
+          <label for="email">Email Address</label><br>
+          <input type="email" id="email" name="enter_email" placeholder="name@domain" required><br>
+          <label for="password">Password (8 characters minimum)</label><br>
+          <input type="password" id="password" name="enter_password" minlength="8" maxlength="12" required><br>
+          <input type="submit" id="btn" value="Sign Up" ></input><br>
+        </form>
+      </div>
+      <div class="memberFirst">
+        <p>Already a member? <a href="login.html">Log in</a></p>
+      </div>
+    </div>
+   </div>
+</body>
+</html>
